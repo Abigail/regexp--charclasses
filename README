@@ -1,5 +1,5 @@
-Regexp-CharClass-Common version 1.2
-===================================
+Regexp-CharClass-Common version 2009040201
+==========================================
 
 DESCRIPTION
 
@@ -20,7 +20,7 @@ This module requires Perl 5.10 or later.
 
 COPYRIGHT AND LICENCE
 
-This library is copyright 2008 by Abigail.
+This library is copyright 2008 - 2009 by Abigail.
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the "Software"),

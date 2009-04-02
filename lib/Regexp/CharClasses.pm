@@ -9,7 +9,7 @@ use Exporter  ();
 use charnames ();
 
 our  @ISA      = qw (Exporter);
-our ($VERSION) = q  $Revision: 1.2 $ =~ /([\d.]+)/;
+our  $VERSION  = '2009040201';
 
 our %EXPORT_TAGS = (
     digits       => [qw [IsDigit0 IsDigit1 IsDigit2 IsDigit3 IsDigit4
@@ -500,17 +500,31 @@ C<\p{IsBinHex}> is imported when asking for the tag C<:encode>.
  $thai5 =~ /\P{IsDigit6}/;     # Match
  $thai5 =~ /\p{IsThaiDigit}/;  # Match
 
-=head1 AUTHOR
+=head1 INSTALLATION
 
-Abigail I<abigail@abigail.be>.
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
 
 =head1 BUGS
 
 Sometimes C<y> and C<w> are used as consonants in English.
 
+=head1 DEVELOPMENT
+
+The current sources of this module are found on github,
+L<< git://github.com/Abigail/regexp--charclasses.git >>.
+
+=head1 AUTHOR
+
+Abigail L<< mailto:regexp-charclasses@abigail.be >>.
+
 =head1 COPYRIGHT and LICENSE
 
-This program is copyright 2008 by Abigail.
+This program is copyright 2008 - 2009 by Abigail.
  
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the "Software"),
@@ -529,24 +543,5 @@ THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT
 OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-
-=head1 INSTALLATION
-
-To install this module type the following:
-
-   perl Makefile.PL
-   make
-   make test
-   make install
-
-=head1 HISTORY
-
- $Log: CharClasses.pm,v $
- Revision 1.2  2008/01/12 00:39:36  abigail
- 'use 5.010' instead of a feature bundle.
-
- Revision 1.1.1.1  2008/01/12 00:12:24  abigail
- Initial checkin
-
 
 =cut
