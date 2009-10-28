@@ -24,7 +24,7 @@ my %args = (
                              'Exporter'   => 0,
                              'strict'     => 0,
                              'warnings'   => 0,
-                             'Test::Pod'  => 1.00},
+                            },
         resources        => {
             repository   => 'git://github.com/Abigail/regexp--charclasses.git',
         },
