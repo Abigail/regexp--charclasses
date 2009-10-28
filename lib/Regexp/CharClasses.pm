@@ -9,7 +9,7 @@ use Exporter  ();
 use charnames ();
 
 our  @ISA      = qw (Exporter);
-our  $VERSION  = '2009040201';
+our  $VERSION  = '2009102801';
 
 our %EXPORT_TAGS = (
     digits       => [qw [IsDigit0 IsDigit1 IsDigit2 IsDigit3 IsDigit4
