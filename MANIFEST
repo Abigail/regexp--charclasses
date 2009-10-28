@@ -13,5 +13,6 @@ t/06_parenthesis.t
 t/07_vowels.t
 t/08_lang_digits.t
 t/09_encode.t
-t/99_export.t
+t/50_export.t
+t/90_pod.t
 t/Data.pm
