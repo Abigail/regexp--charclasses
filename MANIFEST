@@ -15,4 +15,5 @@ t/08_lang_digits.t
 t/09_encode.t
 t/50_export.t
 t/90_pod.t
+t/95_pod_coverage.t
 t/Data.pm
