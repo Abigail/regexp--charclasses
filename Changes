@@ -2,3 +2,4 @@ Version 2009102801
 + Introduced Changes file
 + Modernized Makefile.PL
 + Test POD
++ Test POD coverage
