@@ -12,8 +12,6 @@ use List::Util 'shuffle';
 use lib 't';
 use Data;
 
-our ($VERSION) = q $Revision: 1.2 $ =~ /[\d.]+/g;
-
 BEGIN {
     use_ok ('Regexp::CharClasses')
 };
@@ -36,9 +34,3 @@ foreach my $r (1 .. RUNS) {
         
 
 __END__
- 
- $Log: 04_digits_multi.t,v $
- Revision 1.2  2008/01/12 00:21:33  abigail
- - Added $VERSION
- - Added "no warnings 'syntax'"
-

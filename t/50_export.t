@@ -6,8 +6,6 @@ use strict;
 use warnings;
 no warnings 'syntax';
 
-our ($VERSION) = q $Revision: 1.3 $ =~ /[\d.]+/g;
-
 my @digits  = qw [IsDigit0 IsDigit1 IsDigit2 IsDigit3 IsDigit4
                   IsDigit5 IsDigit6 IsDigit7 IsDigit8 IsDigit9
                   IsLatinDigit IsArabicIndicDigit
@@ -98,12 +96,3 @@ foreach my $any (@all) {
 }
 
 __END__
-
- $Log: 99_export.t,v $
- Revision 1.3  2008/01/12 00:40:50  abigail
- Tests for the :encode tag.
-
- Revision 1.2  2008/01/12 00:21:33  abigail
- - Added $VERSION
- - Added "no warnings 'syntax'"
-

@@ -6,8 +6,6 @@ use strict;
 use warnings;
 no warnings 'syntax';
 
-our ($VERSION) = q $Revision: 1.2 $ =~ /[\d.]+/g;
-
 BEGIN {
     use_ok ('Regexp::CharClasses')
 };
@@ -62,9 +60,3 @@ foreach my $c (0x00 .. 0x800) {
 
 
 __END__
-
- $Log: 07_vowels.t,v $
- Revision 1.2  2008/01/12 00:21:33  abigail
- - Added $VERSION
- - Added "no warnings 'syntax'"
-
