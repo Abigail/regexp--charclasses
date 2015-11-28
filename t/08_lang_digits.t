@@ -61,7 +61,7 @@ foreach my $language (@languages) {
     }
 }
 
-foreach my $_ (0 .. 9) {
+foreach (0 .. 9) {
     ok  /^\p{IsLatinDigit}$/, qq ["$_" =~ /^\\p{IsLatinDigit}\$/];
     ok !/^\P{IsLatinDigit}$/, qq ["$_" =~ /^\\P{IsLatinDigit}\$/];
 

@@ -44,7 +44,7 @@ while (my ($name, $chars) = each %info) {
 
 foreach my $name (sort keys %data) {
     foreach my $ord (0x00 .. 0x7F) {
-        my $_ = chr $ord;
+        local $_ = chr $ord;
         if (exists $data {$name} {$_}) {
             ok /\p{$name}/, "'$_' =~ /\\p{$name}/"
         }

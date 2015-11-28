@@ -1,3 +1,6 @@
+Version 2015112801 Sat Nov 28 20:22:39 CET 2015
++ Eliminated use of 'my $_'
+
 Version 2009102801
 + Introduced Changes file
 + Modernized Makefile.PL
